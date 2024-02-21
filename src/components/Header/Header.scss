@@ -1,0 +1,42 @@
+.navBar {
+  background-color: var(--header-blue);
+  color: #fff;
+
+  box-shadow: 0 2px 2px#0000c98f;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 15px;
+
+  &__rightSide {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+
+    div {
+      display: flex;
+      align-items: center;
+
+      background-color: #5c6ac3;
+
+      button {
+        display: flex;
+        align-items: center;
+
+        background-color: transparent;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+
+      input {
+        background-color: transparent;
+        color: #fff;
+        outline: none;
+        border: none;
+      }
+    }
+  }
+}

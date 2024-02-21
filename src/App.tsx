@@ -1,7 +1,17 @@
-import React from "react";
+import { Header, Map, List, PlaceDetails } from "./components";
+
+import "./App.scss";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <Header />
+      <div className="body">
+        <List />
+        <Map />
+      </div>
+    </>
+  );
 };
 
 export default App;

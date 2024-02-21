@@ -90,7 +90,9 @@ textarea:not([rows]) {
   scroll-margin-block: 5ex;
 }
 
-@import url("");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
+  --header-blue: #3f50b6;
+  --font-base: "Montserrat", sans-serif;
 }
