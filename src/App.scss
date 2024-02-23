@@ -1,5 +1,14 @@
-.body {
+.mainWrapper {
+  height: 100vh;
   display: flex;
+  flex-direction: column;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+
+  margin-top: 2px;
 
   @media screen and (max-width: 390px) {
     flex-direction: column;

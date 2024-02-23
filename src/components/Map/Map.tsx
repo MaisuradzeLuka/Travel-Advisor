@@ -7,10 +7,12 @@ const Map = () => {
     lng: 0,
   };
 
+  const bootstrapURLKey = import.meta.env.VITE_bootstrapURLKeys;
+
   return (
     <div className="map">
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyAGH_jLIKaM9I3b-Mx4DkFPMoK2xq25v2g" }}
+        bootstrapURLKeys={{ key: bootstrapURLKey }}
         defaultCenter={coordinates}
         center={coordinates}
         defaultZoom={14}
@@ -18,7 +20,7 @@ const Map = () => {
         // options={''}
         // onChange={''}
         // onChildClick={''}
-      ></GoogleMapReact>
+      />
     </div>
   );
 };
