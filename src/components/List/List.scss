@@ -1,3 +1,16 @@
-.list {
+.leftSide {
   flex: 1;
+  padding: 20px 15px;
+
+  h4 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
 }
