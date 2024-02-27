@@ -20,7 +20,9 @@ const App = () => {
   }, []);
 
   useEffect(() => {
-    fetchPlaces(bounds!).then((data) => setPlaces(data));
+    if (bounds) {
+      fetchPlaces(bounds).then((data) => setPlaces(data));
+    }
   }, [bounds]);
 
   return (

@@ -1,0 +1,60 @@
+.place {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  border-radius: 7px;
+
+  box-shadow: 0 0 6px 3px #0a0a0a33;
+
+  img {
+    border-radius: 7px 7px 0 0;
+  }
+
+  &__info {
+    padding: 0 15px;
+    color: #444747;
+
+    h4 {
+      color: #252727;
+    }
+
+    &__wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    &__cuisine {
+      display: flex;
+      flex-wrap: wrap;
+      column-gap: 10px;
+      row-gap: 5px;
+
+      margin-bottom: 20px;
+
+      span {
+        color: #3b3f3f;
+        background-color: #e0dfe0;
+        padding: 3px 7px;
+        border-radius: 20px;
+      }
+    }
+
+    &__links {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 15px;
+
+      button {
+        border: none;
+        background-color: transparent;
+
+        a {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
